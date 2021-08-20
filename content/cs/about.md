@@ -1,7 +1,7 @@
 ---
 title: "O stránce"
-date: "2021–08-01"
-draft: "false"
+date: 2021–08-01
+draft: false
 ---
 
 Pracuji jako projektový manažer a věnuji se udržitelnosti a obnovitelným zdrojům energie. Oblíbil jsem si Python a další otevřený software jako skvělý nástroj pro práci s daty.

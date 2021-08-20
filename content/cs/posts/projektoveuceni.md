@@ -1,6 +1,6 @@
 ---
-title: Projektové učení
-date: "2021-08-19"
+title: "Projektové učení"
+date: 2021-08-19
 tags: ["code", "energy"]
 ---
 

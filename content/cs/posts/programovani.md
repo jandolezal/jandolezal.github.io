@@ -1,6 +1,6 @@
 ---
-title: Programování je příležitost
-date: "2021-08-18"
+title: "Programování je příležitost"
+date: 2021-08-18
 tags: ["code"]
 ---
 
