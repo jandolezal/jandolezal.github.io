@@ -2,6 +2,7 @@ theme = 'mytheme'
 languageCode = 'en'
 defaultContentLanguage = 'en'
 pygmentsUseClasses = false
+baseURL = 'https://jandolezal.github.io/'
 
 [markup.highlight]
 codeFences = true
