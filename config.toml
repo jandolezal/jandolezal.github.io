@@ -1,9 +1,8 @@
 theme = 'mytheme'
 languageCode = 'en'
-defaultContentLanguage = 'cs'
+defaultContentLanguage = 'en'
 pygmentsUseClasses = false
 baseURL = 'https://jandolezal.github.io/'
-disableLanguages = ['en']
 
 [markup.highlight]
 codeFences = true
@@ -18,8 +17,6 @@ twitter = 'https://www.twitter.com/jandolezal'
 
 [languages]
 [languages.en]
-baseURL = 'https://jandolezal.github.io/en/'
-contentDir = 'content/en'
 title = 'Jan Dolezal'
 [languages.en.params]
 postName = 'Blog'
@@ -35,8 +32,6 @@ url = '/about'
 weight = 0
 
 [languages.cs]
-baseURL = 'https://jandolezal.github.io/'
-contentDir = 'content/cs'
 title = 'Jan Doležal'
 [languages.cs.params]
 postName = 'Blog'
