@@ -1,0 +1,27 @@
+{{ define "main" }}
+    <main>
+      <section class="content">
+        <img class="profile-img" src="{{ .Site.BaseURL }}profile_photo.jpg" alt="Profile photo">
+        <h1>{{ .Site.Title }}</h1>
+        {{.Content}}
+      </section>
+      {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+      {{ if $pages }}
+      <section>
+        <h2>{{ .Param "postName" }}</h2>
+        <ul>
+          {{ range $pages }}
+          <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ if eq .Page.Lang "cs" }}
+            <date class="homepage-date">{{ .Date.Day }}. {{ index $.Site.Data.mesice (printf "%d" .Date.Month) }} {{ .Date.Year }}</date>
+            {{ else }}
+            <date class="homepage-date">{{ .Date.Format "2 Jan 2006" }}</date>
+            {{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </section>
+      {{ end }}
+    </main>
+{{ end }}

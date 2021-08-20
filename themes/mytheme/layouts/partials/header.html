@@ -1,0 +1,7 @@
+<header>
+    <ul class="top">
+        {{ range .Translations }}
+        <li id="language" class="top-item"><span></span><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
+        {{ end }}
+    </ul>
+</header>

@@ -1,0 +1,13 @@
+<footer>
+    <ul class="bottom">
+        {{ range .Site.Menus.main.ByWeight }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+        <li><a href="{{ .Site.BaseURL }}tags">{{ .Param "tagsName"}}</a></li>   
+    </ul>
+    <ul class="bottom">
+        <li><a href="{{ .Site.Params.github }}">GitHub</a></li>   
+        <li><a href="{{ .Site.Params.linkedin }}">LinkedIn</a></li>
+        <li><a href="{{ .Site.Params.twitter }}">Twitter</a></li>
+    </ul>
+</footer>

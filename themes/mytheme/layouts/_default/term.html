@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <main>
+        <h1># {{ .Page.Title }}</h1>
+        <ul>
+          {{ range .Pages }}
+          <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ if eq .Page.Lang "cs" }}
+            <date class="homepage-date">{{ .Date.Day }}. {{ index $.Site.Data.mesice (printf "%d" .Date.Month) }} {{ .Date.Year }}</date>
+            {{ else }}
+            <date class="homepage-date">{{ .Date.Format "2 Jan 2006" }}</date>
+            {{ end }}          </li>
+          {{ end }}
+        </ul>
+    </main>
+{{ end }}

@@ -1,0 +1,50 @@
+theme = 'mytheme'
+languageCode = 'en'
+defaultContentLanguage = 'en'
+pygmentsUseClasses = false
+
+[markup.highlight]
+codeFences = true
+noClasses = true
+style = 'monokailight'
+
+[params]
+mainSections = ['posts']
+github = 'https://www.github.com/jandolezal'
+linkedin = 'https://www.linkedin.com/in/janfdolezal'
+twitter = 'https://www.twitter.com/jandolezal'
+
+[languages]
+[languages.en]
+baseURL = 'https://jandolezal.github.io/'
+contentDir = 'content/en'
+title = 'Jan Dolezal'
+[languages.en.params]
+postName = 'Blog'
+tagsName = 'Tags'
+[languages.en.menu]
+[[languages.en.menu.main]]
+name = 'Home'
+url = '/'
+weight = 1
+[[languages.en.menu.main]]
+name = 'About'
+url = '/about'
+weight = 0
+
+[languages.cs]
+baseURL = 'https://jandolezal.github.io/cs/'
+contentDir = 'content/cs'
+title = 'Jan Doležal'
+[languages.cs.params]
+postName = 'Blog'
+tagsName = 'Štítky'
+[languages.cs.menu]
+[[languages.cs.menu.main]]
+name = 'Domů'
+url = '/'
+weight = 1
+[[languages.cs.menu.main]]
+name = 'O stránce'
+url = '/about'
+weight = 0
