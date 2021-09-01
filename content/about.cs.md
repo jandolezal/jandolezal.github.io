@@ -1,5 +1,6 @@
 ---
 title: "O stránce"
+slug: "o-strance"
 draft: false
 ---
 

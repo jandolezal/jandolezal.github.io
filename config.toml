@@ -4,6 +4,9 @@ defaultContentLanguage = 'en'
 pygmentsUseClasses = false
 baseURL = 'https://jandolezal.github.io/'
 
+[Taxonomies]
+tag = 'tags'
+
 [markup.highlight]
 codeFences = true
 noClasses = true
@@ -47,7 +50,7 @@ url = '/'
 weight = 1
 [[languages.cs.menu.main]]
 name = 'O stránce'
-url = '/about'
+url = '/o-strance'
 weight = 0
 [[languages.cs.menu.main]]
 name = 'Štítky'

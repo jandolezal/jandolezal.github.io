@@ -1,7 +1,7 @@
 ---
 title: "Projektové učení"
 date: 2021-08-19
-tags: ["code", "energy"]
+tags: ["programovani", "energetika"]
 ---
 
 Když jsem se začal učit programovat, naštěstí jsem neměl nouzi o menší projekty, na kterých si věci zkoušet. Nejvíc se osvědčilo nějak to propojit s prací, kdy se hodilo scrapovat data nebo je čistit v Pythonu a Pandas. Většinou ale nejde o projekty, které se dají zveřejnit a ani není důvod.

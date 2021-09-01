@@ -1,7 +1,7 @@
 ---
 title: "Programování je příležitost"
 date: 2021-08-18
-tags: ["code"]
+tags: ["programovani"]
 ---
 
 Líbí se mi úvodní text na stránce [Junior Guru](https://junior.guru/), kde Honza Javorek píše:
