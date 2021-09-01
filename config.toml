@@ -30,6 +30,10 @@ weight = 1
 name = 'About'
 url = '/about'
 weight = 0
+[[languages.en.menu.main]]
+name = 'Tags'
+url = '/tags'
+weight = 0
 
 [languages.cs]
 title = 'Jan Doležal'
@@ -44,4 +48,8 @@ weight = 1
 [[languages.cs.menu.main]]
 name = 'O stránce'
 url = '/about'
+weight = 0
+[[languages.cs.menu.main]]
+name = 'Štítky'
+url = '/tags'
 weight = 0

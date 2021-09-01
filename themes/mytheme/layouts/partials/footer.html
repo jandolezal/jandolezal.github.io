@@ -1,9 +1,9 @@
 <footer>
     <ul class="bottom">
         {{ range .Site.Menus.main.ByWeight }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
         {{ end }}
-        <li><a href="{{ .Site.BaseURL }}tags">{{ .Param "tagsName"}}</a></li>   
+        <!-- <li><a href="{{ .Site.BaseURL | absLangURL }}tags">{{ .Param "tagsName"}}</a></li>    -->
     </ul>
     <ul class="bottom">
         <li><a href="{{ .Site.Params.github }}">GitHub</a></li>   
