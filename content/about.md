@@ -1,6 +1,7 @@
 ---
 title: "About"
 slug: "about"
+description: "Blog mostly about my GitHub projects and such."
 draft: false
 ---
 

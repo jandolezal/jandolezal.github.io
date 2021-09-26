@@ -1,6 +1,7 @@
 ---
 title: "O stránce"
 slug: "o-strance"
+description: "Blog hlavně o mých projektech na GitHubu."
 draft: false
 ---
 
