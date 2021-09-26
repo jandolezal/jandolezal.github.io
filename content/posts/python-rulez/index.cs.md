@@ -2,6 +2,7 @@
 title: "Python rulez!"
 date: 2021-09-26
 description: "Tohle měl být původně jeden odstavec do klubu Junior Guru. Chtěl jsem psát o tom, jak jsem se tento týden seznamoval s API od sluzby Datawrapper."
+socialImage: "map.png"
 tags: ["programovani", "data"]
 ---
 

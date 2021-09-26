@@ -17,6 +17,7 @@ mainSections = ['posts']
 github = 'https://www.github.com/jandolezal'
 linkedin = 'https://www.linkedin.com/in/janfdolezal'
 twitter = 'https://www.twitter.com/jandolezal'
+socialImage = 'profile_photo.jpg'
 
 [languages]
 [languages.en]
