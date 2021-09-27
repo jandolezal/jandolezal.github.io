@@ -24,7 +24,7 @@ Kanál #motivace by taky dával smysl. Díky podobným zkušenostem mě programo
 
 Pro někoho je to možná banalita, pro jeden graf rozhodně *overkill*, ale mě pořád přijde skvělý si vyzkoušet, že můžu ke stejnému výsledku – interaktivnímu grafu – dojít dvěma cestami: přes grafické rozhraní nebo s pomocí Pythonu a knihoven [Pandas](https://pandas.pydata.org/) a Requests.
 
-Mohl jsem si stáhnout tabulky z Eurostatu, upravit je ručně v Google Tabulkách nebo Excelu a mapu naklikat přímo ve webové aplikaci Datawrapper. Přesto si myslím (a doufám), že o ztracený čas nejde. Zas o malinko víc toho vím o REST APIs, Hugo a využívání [shortcodes](https://gohugo.io/templates/shortcode-templates/). Datawrapper a automatizace podobných věcí se může hodit i v současný práci, kde často pracuji se statistikami, a přemýšlím, jak je komunikovat dál. Užitečná bude dokumentace přípravy grafu a automatizace tvorby většího počtu vizalizací.
+Mohl jsem si stáhnout tabulky z Eurostatu, upravit je ručně v Google Tabulkách nebo Excelu a mapu naklikat přímo ve webové aplikaci Datawrapper. Přesto si myslím (a doufám), že o ztracený čas nejde. Zas o malinko víc toho vím o REST APIs, Hugo a využívání [shortcodes](https://gohugo.io/templates/shortcode-templates/). Datawrapper a automatizace podobných věcí se může hodit i v současný práci, kde často pracuji se statistikami, a přemýšlím, jak je komunikovat dál. Užitečná bude dokumentace přípravy grafu a automatizace tvorby většího počtu vizualizací.
 
 ## TIL
 
