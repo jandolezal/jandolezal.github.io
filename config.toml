@@ -14,7 +14,7 @@ style = 'monokailight'
 
 [params]
 mainSections = ['posts']
-images = ['profile_photo_rounded.jpg']
+images = ['profile_photo.jpg']
 github = 'https://www.github.com/jandolezal'
 linkedin = 'https://www.linkedin.com/in/janfdolezal'
 twitter = 'https://www.twitter.com/jandolezal'
@@ -24,7 +24,7 @@ twitter = 'https://www.twitter.com/jandolezal'
 [languages.en]
 title = 'Jan Dolezal'
 author = 'Jan Dolezal'
-images = ['profile_photo_rounded.jpg']
+images = ['profile_photo.jpg']
 description = 'Blog mostly about my GitHub projects and such.'
 [languages.en.params]
 postName = 'Blog'
@@ -47,7 +47,7 @@ weight = 0
 title = 'Jan Doležal'
 author = 'Jan Doležal'
 description = 'Blog hlavně o mých projektech na GitHubu'
-images = ['profile_photo_rounded.jpg']
+images = ['profile_photo.jpg']
 [languages.cs.params]
 postName = 'Blog'
 tagsName = 'Štítky'

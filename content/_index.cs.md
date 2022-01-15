@@ -1,5 +1,5 @@
 ---
-title: "Jan Dolezal"
+title: "Jan Doležal"
 draft: false
 description: "Blog hlavně o mých projektech na GitHubu."
 ---
