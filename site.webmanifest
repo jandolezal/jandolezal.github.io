@@ -1,6 +1,7 @@
 {
     "name": "Jan Dolezal",
     "short_name": "Jan Dolezal",
+    "description":"Blog mostly about my GitHub projects and such",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
