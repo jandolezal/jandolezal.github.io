@@ -1,15 +1,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:author" content="{{ .Site.Title }}">
-    <meta property="og:title" content="{{ .Title }}">
-    <meta property="og:description" content="{{ .Page.Description }}">
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
     <meta name="description" content="{{ .Description }}">
-    {{ if .Params.SocialImage }}
-    <meta property="og:image" content="{{ .Page.Permalink }}{{ .Params.SocialImage }}">
-    {{ else }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.SocialImage }}">
-    {{ end }}
     <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}favicon-16x16.png">
