@@ -3,6 +3,7 @@ title: "Projektové učení"
 date: 2021-08-19
 description: "Když jsem se začal učit programovat, naštěstí jsem neměl nouzi o menší projekty, na kterých si věci zkoušet"
 tags: ["programovani", "energetika"]
+slug: "projektove-uceni"
 
 ---
 

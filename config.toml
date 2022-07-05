@@ -1,66 +1,55 @@
-theme = 'mytheme'
-languageCode = 'en'
-defaultContentLanguage = 'en'
-pygmentsUseClasses = false
-baseURL = 'https://jandolezal.github.io/'
+# Base URL used when generating links to your pages
+# Set to the URL for your site
+baseURL = "https://jandolezal.github.io"
 
-[Taxonomies]
-tag = 'tags'
+# The name of this wonderful theme ;-).
+theme = 'hugo-bearblog'
 
-[markup.highlight]
-codeFences = true
-noClasses = true
-style = 'monokailight'
+# Basic metadata configuration for your blog.
+title = "Planeta vos 🐝"
+author = "Jan Doležal"
+copyright = "2022 Jan Doležal"
+languageCode = "cs"
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+# Prevent Blogs
+pluralizelisttitles = false
+
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
 
 [params]
-mainSections = ['posts']
-images = ['profile_photo.jpg']
-github = 'https://www.github.com/jandolezal'
-linkedin = 'https://www.linkedin.com/in/janfdolezal'
-twitter = 'https://www.twitter.com/jandolezal'
-# socialImage = 'profile_photo_rounded.jpg'
+  # The "description" of your website. This is used in the meta data of your generated html.
+  description = "Blog Planeta vos hlavně o mých projektech na GitHubu"
 
-[languages]
-[languages.en]
-title = 'Jan Dolezal'
-author = 'Jan Dolezal'
-images = ['profile_photo.jpg']
-description = 'Blog mostly about my GitHub projects and such.'
-[languages.en.params]
-postName = 'Blog'
-tagsName = 'Tags'
-[languages.en.menu]
-[[languages.en.menu.main]]
-name = 'Home'
-url = '/'
-weight = 1
-[[languages.en.menu.main]]
-name = 'About'
-url = '/about'
-weight = 0
-[[languages.en.menu.main]]
-name = 'Tags'
-url = '/tags'
-weight = 0
+  # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+  # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
+  # favicon = "images/favicon.png"
 
-[languages.cs]
-title = 'Jan Doležal'
-author = 'Jan Doležal'
-description = 'Blog hlavně o mých projektech na GitHubu'
-images = ['profile_photo.jpg']
-[languages.cs.params]
-postName = 'Blog'
-tagsName = 'Štítky'
-[languages.cs.menu]
-[[languages.cs.menu.main]]
-name = 'Domů'
-url = '/'
-weight = 1
-[[languages.cs.menu.main]]
-name = 'O stránce'
-url = '/o-strance'
-weight = 0
-[[languages.cs.menu.main]]
-name = 'Štítky'
-url = '/tags'
-weight = 0
+  # These "images" are used for the structured data templates. This will show up, when
+  # services like Twitter or Slack want to generate a preview of a link to your site.
+  # See https://gohugo.io/templates/internal#twitter-cards and
+  # https://gohugo.io/templates/internal#open-graph.
+  images = ["images/profile_photo.jpg"]
+
+  # Another "title" :-). This one is used as the site_name on the Hugo's internal
+  # opengraph structured data template.
+  # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+  title = "Planeta vos"
+
+  # This theme will, by default, inject a made-with-line at the bottom of the page.
+  # You can turn it off, but we would really appreciate if you don’t :-).
+  # hideMadeWithLine = true
+
+  # By default, this theme displays dates with a format like "02 Jan, 2006", but
+  # you can customize it by setting the `dateFormat` param in your site's config
+  # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
+  # for details. An example TOML config that uses [ISO
+  # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
+  dateFormat = "02/01/2006"

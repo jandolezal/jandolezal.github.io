@@ -3,6 +3,7 @@ title: "Programování je příležitost"
 date: 2021-08-18
 description: "Líbí se mi úvodní text na stráce Junior Guru, kde Honza Javorek píše, že programování je příležitost."
 tags: ["programovani"]
+slug: "programovani"
 ---
 
 Líbí se mi úvodní text na stránce [Junior Guru](https://junior.guru/), kde Honza Javorek píše:

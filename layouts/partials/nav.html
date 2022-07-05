@@ -1,0 +1,10 @@
+<a href="{{ "/" | relURL }}">Domů</a>
+{{ range .Site.Menus.main }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}
+{{ with .Site.GetPage "/blog" }}
+<a href="{{ "/blog" | relURL }}">Blog</a>
+{{ end }}
+<a href="{{ "https://www.github.com/jandolezal" | absURL }}">GitHub</a>
+<a href="{{ "https://www.linkedin.com/in/janfdolezal" | absURL }}">LinkedIn</a>
+<a href="{{ "https://www.twitter.com/jandolezal" | absURL }}">Twitter</a>
