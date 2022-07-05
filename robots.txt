@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://jandolezal.github.io/sitemap.xml
